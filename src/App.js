@@ -83,33 +83,33 @@ function App() {
   
   const levelTwo = async() => {
     setLevelLoad(2)
-    await wait(1500)
     clearLevel()
     setLevelIds(levelNumbers(10, renderData))
+    await wait(1500)
     setLevelLoad(0)
   }
 
   const levelThree = async() => {
     setLevelLoad(3)
-    await wait(1500)
     clearLevel()
     setLevelIds(levelNumbers(16, renderData))
+    await wait(1500)
     setLevelLoad(0)
   }
 
   const levelFour = async() => {
     setLevelLoad(4)
-    await wait(1500)
     clearLevel()
     setLevelIds(levelNumbers(22, renderData))
+    await wait(1500)
     setLevelLoad(0)
   }
 
   const levelFive = async() => {
     setLevelLoad(5)
-    await wait(1500)
     clearLevel()
     setLevelIds(levelNumbers(30, renderData))
+    await wait(1500)
     setLevelLoad(0)
   }
 
@@ -213,7 +213,7 @@ function App() {
   }
 
   return (
-    <div className="bg-2">
+    <div className="bg-2 h-full">
     <Header />
     <div className="flex justify-center gap-16 p-2">
       <ScoreBoard score={score} />

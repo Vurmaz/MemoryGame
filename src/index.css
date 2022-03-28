@@ -81,6 +81,10 @@ body {
   font-family: rickAndMorty;
   color: var(--blue);
 }
+.rm-text4 {
+  font-family: rickAndMorty;
+  color: var(--yellow);
+}
 .border-brown {
   border-color: var(--brown);
 }
@@ -116,7 +120,7 @@ body {
   transition: color 700ms ease-in-out;
 }
 .hover-git:hover {
-  color: var(--yellow);
+  color: var(--green);
 }
 .hover-btn {
   transition: all 500ms ease-in-out;
@@ -125,6 +129,9 @@ body {
   background-color: var(--brown);
   color: var(--yellow);
   transform: translateY(-10%);
+}
+.h-9vh {
+  height: 9vh;
 }
 @font-face {
   font-family: rickAndMorty;
